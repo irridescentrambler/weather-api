@@ -1,0 +1,10 @@
+Documentation:
+    Enabled: false
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'db/*'
+    - 'db/migrate/*'
+    - 'config/*'
+    - 'config/environments/*'
+    - 'config/initializers/*'
