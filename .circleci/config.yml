@@ -42,9 +42,9 @@ jobs:
 
       # Rubocop check
       - run:
-        name: Check rubocop offences
-        command: |
-          bundle exec rubocop -a
+          name: Check rubocop offences
+          command: |
+            bundle exec rubocop -a
 
 
       # run tests!
